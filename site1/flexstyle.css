@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.menu-container{
+    color: #fff;
+    background-color: #3b3ba8;
+    display:flex;
+    justify-content: center;
+
+}
+
+.menu{
+/* border: 1px solid white; /*DEBUG */
+width: 900px;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links{
+/* Dead class used to house (SIGNUP & LOGIN) to one grouped flexchild */
+    /* border: 1px solid white; /* debug border */
+display: flex;
+justify-content: flex-end;
+}
+
+.login{
+    margin-left: 20px
+}
+
+.header-container{
+    color: #3b3ba885;
+    background-color: #b3b3e6;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.photo-grid{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+}
+
+.photo-grid-item{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+
+}
+
+.first-item{
+    order: 1;
+}
+.last-item{
+    order: -1;
+}
+
+.social,
+.subscribe{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.footer-item{
+    background-color: #b3b3e6;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-three{
+    flex: 2;
+}
+
+.footer-one,
+.footer-three{
+    background-color: #5d5d7a;
+    flex: initial;
+    width: 300px;
+}
+
+
+/* moves the .signup and any following items <left to right> (.login) to the right side of the container. This will give you the exact same layout we had before, but without that extra nested <div> to group them. */
+.signup{
+    margin-left: auto;
+}
+
+table th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+th, td{
+    background-color: azure;
+}
+
+tr, td{
+    justify-content: center;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.table{
+    width: 900px;
+    margin: 60px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-spacing: 10px;
+}
+
+th{
+    padding: 5px;
+}
