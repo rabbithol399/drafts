@@ -1,0 +1,24 @@
+body{
+    max-width: 900px;
+}
+
+.header{
+    background-color: #606060;
+    display: flex;
+
+}
+
+.header h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(11, 36, 57);
+}
+
+.sec1 h1{
+    font-size: 30px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+}
