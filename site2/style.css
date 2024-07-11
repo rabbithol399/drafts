@@ -1,24 +1,92 @@
 body{
-    max-width: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.header{
-    background-color: #606060;
+.headermain{
     display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.top-head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    width: 80vw;
+
 
 }
 
-.header h1{
-    font-size: 28px;
-    font-weight: 900;
-    color: rgb(11, 36, 57);
+.bottom-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80vw;
+
+    
+}
+
+.textbuttonbundle {
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-top: 20px;
 }
 
 .sec1 h1{
     font-size: 30px;
 }
 
-.sec1{
+
+.header-links{
     display: flex;
-    flex-direction: column;
+    padding: 20px;
+    justify-self: flex-end;
+    gap: 15px;
+}
+
+.herotext{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.herotext2{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-button{
+    background-color: #3882F6;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: #1F2937;
+    width: 110px;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.headimg{
+    width: 500px;
+    max-height: 300px;
+    border-radius: 35px;
+    padding: 30px;
+    
+
 }
