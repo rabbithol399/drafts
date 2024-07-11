@@ -74,6 +74,7 @@ body{
     width: 110px;
     color: #E5E7EB;
     font-weight: 700;
+    font-size: 16px;
 }
 
 a{
@@ -89,4 +90,81 @@ a{
     padding: 30px;
     
 
+}
+
+.multibox-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.multibox-title {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 00;
+    color: #1F2937;
+    margin: 40px;
+}
+
+.multibox-flexer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.randomimg {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.text {
+    color: #1F2937;
+    width: 250px;
+
+}
+
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    align-items: flex-end;
+
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quoter {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
 }
